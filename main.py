@@ -45,7 +45,7 @@ def main():
                 return
             for sho in shots:
                 if ast.is_colliding(sho):
-                    ast.kill()
+                    ast.split()
                     sho.kill()
                     break
 
